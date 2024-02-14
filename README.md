@@ -15,7 +15,7 @@ This UEFI application utilizes the `CPUID` instruction to fetch and display CPU 
 
 ## **Prerequisites**
 
-Before building and running this application, make sure you have the necessary UEFI development environment set up. Ensure that you have a compatible UEFI firmware, and a toolchain capable of building UEFI applications.
+Before building and running this application, make sure you have the necessary UEFI development environment(EDK2) set up. 
 
 ## **Usage**
 
@@ -25,8 +25,7 @@ Simply compile the application and load it onto a UEFI-compatible system. When e
 
 To build the application, use the following steps:
 
-1. Set up your UEFI development environment.
+1. Set up your UEFI development environment(EDK2).
 2. Place this source code in the appropriate directory.
 3. Use the provided build tools to compile the application.
 
-For example, using the EDK2 build system:
